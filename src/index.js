@@ -2,7 +2,7 @@
 import express from "express";
 
 import tecnologiaRouter from "../src/routes/tecnologia.route.js";
-process.loadEnvFile()
+
 
 const app = express()
 const PORT = 3000
